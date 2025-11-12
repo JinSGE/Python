@@ -1,0 +1,16 @@
+Hello! Welcome to demofile.txt
+This file is for testing purposes.
+Good Luck!
+
+content = """Hello! Welcome to demofile.txt
+This file is for testing purposes.
+Good Luck!"""
+
+file = 'file3.txt'
+
+with open("file3.txt", "w") as fd:
+    fd.write(content)
+
+with open(file) as fd:
+    lines = fd.readlines()
+    print(lines)

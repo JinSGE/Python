@@ -1,0 +1,7 @@
+Hello World
+
+fd = open('t.txt','w')
+fd.write('Hello World\n')
+fd.close()
+
+print(open('t.txt').read())
